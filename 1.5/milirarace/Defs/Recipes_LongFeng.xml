@@ -1,0 +1,62 @@
+<Defs>
+	<!-- 龙凤呈祥配方 -->
+    <RecipeDef MayRequire="rooandgloomy.dragonianracemod">
+        <defName>AC_CookLongFeng</defName>
+        <label>烹饪龙凤呈祥</label>
+        <description>祥瑞寓意，传统点缀。</description>
+        <jobString>正在烹饪龙凤呈祥。</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+		<interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <!-- 食材过滤器 -->
+		<fixedIngredientFilter Inherit="false">
+			<thingDefs>
+				<li>Meat_Dragonian_Race</li>
+				<li MayRequire="ny.smeltedloong">Meat_ForgingDragon</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_Milira_Race</li>
+                <li>Meat_Dragonian_Race</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Milira_Race</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+			<li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Dragonian_Race</li>
+                        <li MayRequire="ny.smeltedloong">Meat_ForgingDragon</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_LongFeng>1</AC_LongFeng>
+        </products>
+        <skillRequirements>
+            <Cooking>5</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+	
+	
+</Defs>

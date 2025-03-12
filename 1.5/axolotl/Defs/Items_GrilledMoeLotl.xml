@@ -1,0 +1,31 @@
+<Defs>
+	<ThingDef MayRequire="hentailoliteam.axolotl" ParentName="MealCooked">
+		<defName>AC_GrilledMoeLotl</defName>
+		<label>烤萌螈</label>
+		<description>用萌螈肉制作的烤串，外焦里嫩QAQ。</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_GrilledMoeLotlBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/GrilledMoeLotl</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<WorkToMake>1300</WorkToMake>
+			<Nutrition>1.0</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_GrilledMoeLotlBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		
+	</ThingDef>
+</Defs>

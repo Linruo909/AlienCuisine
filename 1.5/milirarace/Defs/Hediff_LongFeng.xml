@@ -1,0 +1,39 @@
+<Defs>
+	<!-- 龙凤呈祥效果 -->
+    <HediffDef MayRequire="rooandgloomy.dragonianracemod">
+        <defName>AC_LongFengBuff</defName>
+        <label>"龙凤呈祥"</label>
+        <description>食用龙凤呈祥后，得到了部分龙娘与米莉拉的力量。</description>
+        <tendable>false</tendable>
+        <isBad>false</isBad>
+        <defaultLabelColor>(250,0,0)</defaultLabelColor>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>1.0</initialSeverity>
+        <maxSeverity>1.0</maxSeverity>
+        <comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>0</severityPerDay>
+				<showHoursToRecover>false</showHoursToRecover>
+			</li>
+        </comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ResearchSpeedFactor>1.88</ResearchSpeedFactor>
+					<MoveSpeed>0.6</MoveSpeed>
+					<MeleeDodgeChance>8</MeleeDodgeChance>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.66</IncomingDamageFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+    </HediffDef>
+	
+</Defs>

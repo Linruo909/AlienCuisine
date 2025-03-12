@@ -1,0 +1,41 @@
+<Defs>
+    <!-- 烤萌螈效果 -->
+    <HediffDef MayRequire="hentailoliteam.axolotl">
+        <defName>AC_GrilledMoeLotlBuff</defName>
+        <label>烤萌螈效果</label>
+        <description>食用烤萌螈后，自然愈合能力提升，移动速度提升。</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(255,200,230)</defaultLabelColor>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+        <hediffClass>HediffWithComps</hediffClass>
+        <comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.5</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+        </comps>
+		<stages>
+			<li>
+				<painFactor>0.8</painFactor>
+				<statOffsets>
+					<Flammability>-0.5</Flammability>
+					<InjuryHealingFactor>1</InjuryHealingFactor>
+                    <MoveSpeed>0.3</MoveSpeed>
+                </statOffsets>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>1.0</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>1.0</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+    </HediffDef>
+
+</Defs>

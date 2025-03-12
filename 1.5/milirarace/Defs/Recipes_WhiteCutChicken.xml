@@ -1,0 +1,48 @@
+<Defs>
+	<!-- 白切鸡配方 -->
+    <RecipeDef MayRequire="secretarynexus.secretarynexusracemod">
+        <defName>AC_CookWhiteCutChick</defName>
+        <label>烹饪白切鸡</label>
+        <description>白斩鸡的做法出自北馔，是伴随唐代“索唤（快餐）”而诞生的“旋鮓”肴馔，它是宋代士庶南迁，给南烹带来食文化交流和融合的产物。</description>
+        <jobString>正在烹饪白切鸡。</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+		<interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Milira_Race</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+			<li>
+                <filter>
+                    <thingDefs>
+                        <li>AC_KnowledgeBread</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_WhiteCutChick>1</AC_WhiteCutChick>
+        </products>
+        <skillRequirements>
+            <Cooking>5</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+	
+	
+</Defs>

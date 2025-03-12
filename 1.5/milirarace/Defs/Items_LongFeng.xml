@@ -1,0 +1,33 @@
+<Defs>
+	<ThingDef MayRequire="rooandgloomy.dragonianracemod" ParentName="MealBase">
+		<defName>AC_LongFeng</defName>
+		<label>龙凤呈祥</label>
+		<description>中国传统祥瑞料理"龙凤呈祥"摆放在翡翠玉盘中，盘底流淌液态黄金酱汁。红玉雕琢的龙尾盘旋升腾，覆盖黑曜石纹理龙鳞，天使羽翼造型的透明糖雕悬浮上方。</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_LongFengBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/LongFeng</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>0.25</DeteriorationRate>
+			<Mass>0.1</Mass> 
+			<MarketValue>120</MarketValue>
+			<WorkToMake>1500</WorkToMake>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_LongFengBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+
+	</ThingDef>
+</Defs>

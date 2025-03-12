@@ -1,0 +1,87 @@
+<Defs>
+    <!-- 狐萝卜配方 -->
+    <RecipeDef MayRequire="miho.fortifiedoutremer">
+        <defName>AC_CookCarrox</defName>
+        <label>Cook Carrox</label>
+        <description>Prepare a hearty stew using alien fox radish meat. Its unique properties enhance meditation and reduce psychic entropy.</description>
+        <jobString>Cooking Carrox.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+		<interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <fixedIngredientFilter Inherit="false" />
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_Alien_Miho</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Alien_Miho</li>
+                    </thingDefs>
+                </filter>
+                <count>16</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_Carrox>2</AC_Carrox>
+        </products>
+        <skillRequirements>
+            <Cooking>4</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+	<!-- 狐萝卜x8配方 -->
+    <RecipeDef MayRequire="miho.fortifiedoutremer">
+        <defName>AC_CookCarroxFour</defName>
+        <label>Cook Carrox x8</label>
+        <description>Prepare a hearty stew using alien fox radish meat. Its unique properties enhance meditation and reduce psychic entropy.</description>
+        <jobString>Cooking Carrox x8.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+		<interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <fixedIngredientFilter Inherit="false" />
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_Alien_Miho</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Alien_Miho</li>
+                    </thingDefs>
+                </filter>
+                <count>64</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_Carrox>8</AC_Carrox>
+        </products>
+        <skillRequirements>
+            <Cooking>4</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+	
+</Defs>

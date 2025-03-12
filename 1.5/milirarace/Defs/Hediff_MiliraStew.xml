@@ -1,0 +1,36 @@
+<Defs>
+    <!-- 米莉拉肉汤效果 -->
+    <HediffDef MayRequire="ancot.milirarace">
+        <defName>AC_MiliraStewBuff</defName>
+        <label>米莉拉肉汤效果</label>
+        <description>食用米莉拉肉汤后，思维更开阔了。</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(150,150,200)</defaultLabelColor>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+        <hediffClass>HediffWithComps</hediffClass>
+        <comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.3</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+        </comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ResearchSpeedFactor>0.8</ResearchSpeedFactor>
+					<GlobalLearningFactor>0.5</GlobalLearningFactor> 
+					<MoveSpeed>0.5</MoveSpeed>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.30</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+    </HediffDef>
+	
+</Defs>

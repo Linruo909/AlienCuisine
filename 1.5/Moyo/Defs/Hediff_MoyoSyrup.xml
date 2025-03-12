@@ -1,0 +1,32 @@
+<Defs>
+	<!-- 茉约琼浆效果 -->
+    <HediffDef MayRequire="nemonian.my">
+        <defName>AC_MoyoSyrupBuff</defName>
+        <label>茉约琼浆效果</label>
+        <description>食用茉约琼浆后，免疫力将会提高。</description>
+        <tendable>false</tendable>
+        <isBad>false</isBad>
+        <defaultLabelColor>(90,90,190)</defaultLabelColor>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>1.0</initialSeverity>
+        <maxSeverity>1.0</maxSeverity>
+        <comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.25</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+        </comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ToxicResistance>1.0</ToxicResistance>
+					<ToxicEnvironmentResistance> 0.5</ToxicEnvironmentResistance> 
+					<MedicalTendQuality>0.3</MedicalTendQuality>
+					<MedicalSurgerySuccessChance>0.2</MedicalSurgerySuccessChance> 
+					<ImmunityGainSpeed>1.0</ImmunityGainSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+    </HediffDef>
+	
+</Defs>

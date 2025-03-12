@@ -1,0 +1,30 @@
+<Defs>
+	<!-- 糖醋魅狐效果 -->
+    <HediffDef MayRequire="seioch.kurin.har">
+        <defName>AC_SweetAndSourKurinBuff</defName>
+        <label>Sweet and Sour Kurin Buff</label>
+        <description>After consuming Sweet and Sour Kurin, social interactions are enhanced.</description>
+        <tendable>false</tendable>
+        <isBad>false</isBad>
+        <defaultLabelColor>(150,0,150)</defaultLabelColor>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>1.0</initialSeverity>
+        <maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.3</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+        </comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<SocialImpact>0.3</SocialImpact>
+					<PawnBeauty>5</PawnBeauty>
+					<NegotiationAbility>0.3</NegotiationAbility>
+				</statOffsets>
+			</li>
+		</stages>
+    </HediffDef>
+	
+</Defs>

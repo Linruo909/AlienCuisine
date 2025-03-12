@@ -1,0 +1,85 @@
+<Defs>
+	<!-- 知识面包配方 -->
+	<RecipeDef MayRequire="secretarynexus.secretarynexusracemod">
+		<defName>AC_CookKnowledgeBread</defName>
+		<label>cook Knowledge Bread</label>
+		<description>用书姬的肉制成的神秘面包，食用后能大幅提升学习能力和冥想效果。</description>
+		<jobString>Cooking Knowledge Bread.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<fixedIngredientFilter Inherit="false" />
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+		</recipeUsers>
+		<workSkill>Cooking</workSkill>
+		<defaultIngredientFilter>
+			<thingDefs Inherit="false">
+				<li>Meat_SecretaryClone</li> <!-- 食材为书姬肉 -->
+			</thingDefs>
+		</defaultIngredientFilter>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Meat_SecretaryClone</li>
+					</thingDefs>
+				</filter>
+				<count>12</count> <!-- 每份面包需要12单位肉 -->
+			</li>
+		</ingredients>
+		<products>
+			<AC_KnowledgeBread>1</AC_KnowledgeBread> <!-- 每次制作产出1个面包 -->
+		</products>
+		<skillRequirements>
+			<Cooking>6</Cooking> <!-- 需要烹饪等级6 -->
+		</skillRequirements>
+	</RecipeDef>
+	<!-- 知识面包x5配方 -->
+	<RecipeDef MayRequire="secretarynexus.secretarynexusracemod">
+		<defName>AC_CookKnowledgeBreadFive</defName>
+		<label>cook Knowledge Bread x5</label>
+		<description>用书姬的肉制成的神秘面包，食用后能大幅提升学习能力和冥想效果。</description>
+		<jobString>Cooking Knowledge Bread x5.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<fixedIngredientFilter Inherit="false" />
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+		</recipeUsers>
+		<workSkill>Cooking</workSkill>
+		<defaultIngredientFilter>
+			<thingDefs Inherit="false">
+				<li>Meat_SecretaryClone</li> <!-- 食材为书姬肉 -->
+			</thingDefs>
+		</defaultIngredientFilter>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Meat_SecretaryClone</li>
+					</thingDefs>
+				</filter>
+				<count>60</count> <!-- 5份面包需要60单位肉 -->
+			</li>
+		</ingredients>
+		<products>
+			<AC_KnowledgeBread>5</AC_KnowledgeBread> <!-- 每次制作产出5个面包 -->
+		</products>
+		<skillRequirements>
+			<Cooking>6</Cooking> <!-- 需要烹饪等级6 -->
+		</skillRequirements>
+	</RecipeDef>
+	
+</Defs>

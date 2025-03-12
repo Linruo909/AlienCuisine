@@ -1,0 +1,31 @@
+<Defs>
+	<ThingDef MayRequire="RooAndGloomy.DragonianRaceMod" ParentName="MealCooked">
+		<defName>AC_DragonianSteak</defName>
+		<label>龙娘肉排</label>
+		<description>用龙娘肉制作鲜美肉排，富含蛋白质的肉排。</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_DragonianSteakBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/DragonianSteak</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>1.2</Mass> 
+			<MarketValue>56</MarketValue>
+			<WorkToMake>500</WorkToMake>
+			<Nutrition>1.2</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_DragonianSteakBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+</Defs>

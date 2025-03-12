@@ -1,0 +1,30 @@
+<Defs>
+	<ThingDef MayRequire="vamv.maruracemod" ParentName="MealCooked">
+		<defName>AC_MaruCheese</defName>
+		<label>芝士雪豹</label>
+		<description>用雪豹肉制作的芝士料理，食用后能抵御极寒，并提升觅食和驯服能力。</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_MaruCheeseBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/MaruCheese</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>60</MarketValue>
+			<WorkToMake>1200</WorkToMake>
+			<Nutrition>1.0</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_MaruCheeseBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+</Defs>

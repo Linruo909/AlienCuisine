@@ -1,0 +1,34 @@
+<Defs>
+	<ThingDef MayRequire="nemonian.my" ParentName="MealBase">
+		<defName>AC_MoyoSyrup</defName>
+		<label>Moyo Syrup</label>
+		<description>A sweet and potent syrup made from Moyo meat. It boosts immunity gain speed.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_MoyoSyrupBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/MoyoSyrup</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>0.25</DeteriorationRate>
+			<Mass>0.08</Mass> 
+			<Beauty>5</Beauty> 
+			<MarketValue>60</MarketValue>
+			<WorkToMake>480</WorkToMake>
+			<Nutrition>0.2</Nutrition>
+			<Flammability>0</Flammability>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_MoyoSyrupBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+</Defs>

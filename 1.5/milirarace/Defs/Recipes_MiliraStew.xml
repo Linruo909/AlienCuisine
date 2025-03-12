@@ -1,0 +1,44 @@
+<Defs>
+    <!-- 米莉拉肉汤配方 -->
+    <RecipeDef MayRequire="ancot.milirarace">
+        <defName>AC_CookMiliraStew</defName>
+        <label>Cook Milira Stew</label>
+        <description>Prepare a hearty stew using meat from the Milirra race. Its origin remains a mystery.</description>
+        <jobString>Cooking Milira Stew.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+		<interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <fixedIngredientFilter Inherit="false" />
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_Milira_Race</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Milira_Race</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_MiliraStew>1</AC_MiliraStew>
+        </products>
+        <skillRequirements>
+            <Cooking>3</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+</Defs>

@@ -1,0 +1,8 @@
+<LanguageData>
+  <!-- 消息提示 -->
+  <AC_Message_TraitGained>{0} 获得了“过目不忘”特质</AC_Message_TraitGained>
+  <!-- 状态显示 -->
+  <AC_TraitGrantChance>特质获得概率</AC_TraitGrantChance>
+  <AC_TraitGrantChanceDesc>食用后有{0}几率获得该特质</AC_TraitGrantChanceDesc>
+  
+</LanguageData>

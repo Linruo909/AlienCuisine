@@ -1,0 +1,18 @@
+<LanguageData>
+    <!-- 巨豚肉腸 -->
+    <AC_GigaPigSausage.label>巨豚肉腸</AC_GigaPigSausage.label>
+    <AC_GigaPigSausage.description>將這種級別的動物肉拿來做肉腸，實在是大材小用了。</AC_GigaPigSausage.description>
+
+    <!-- 龍虎鬥 -->
+    <AC_LongHuDou.label>龍虎鬥</AC_LongHuDou.label>
+    <AC_LongHuDou.description>“龍虎鬥”又名“豹狸燴三蛇”，是聞名中外的廣東傳統名菜。古代曾經作為宮廷佳肴。本品是以蛇肉為主料的羹湯菜。精工細作、配料多樣、肉嫩香滑、異常鮮美。</AC_LongHuDou.description>
+
+    <!-- 龍鳳呈祥 -->
+    <AC_LongFeng.label>龍鳳呈祥</AC_LongFeng.label>
+    <AC_LongFeng.description>中國傳統祥瑞料理"龍鳳呈祥"擺放在翡翠玉盤中，盤底流淌液態黃金醬汁。紅玉雕琢的龍尾盤旋升騰，覆蓋黑曜石紋理龍鱗，天使羽翼造型的透明糖雕懸浮上方。</AC_LongFeng.description>
+
+    <!-- 白切雞 -->
+    <AC_WhiteCutChick.label>白切雞</AC_WhiteCutChick.label>
+    <AC_WhiteCutChick.description>白切雞又叫白斬雞，是一道中華民族特色菜餚，是江浙地區的名饌，在中國南方菜系中普遍存在。</AC_WhiteCutChick.description>
+
+</LanguageData>

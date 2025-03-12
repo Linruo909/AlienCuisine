@@ -1,0 +1,31 @@
+<Defs>
+	<ThingDef MayRequire="seioch.kurin.har" ParentName="MealCooked">
+		<defName>AC_SweetAndSourKurin</defName>
+		<label>Sweet and Sour Kurin</label>
+		<description>Rumors say that Kurin tails are untouchable, but colonists didn't believe it, and thus this dish was born.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_SweetAndSourKurinBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/SweetAndSourKurin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.6</Mass>
+			<MarketValue>50</MarketValue>
+			<WorkToMake>600</WorkToMake>
+			<Nutrition>0.9</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_SweetAndSourKurinBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+</Defs>

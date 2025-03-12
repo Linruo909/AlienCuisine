@@ -1,0 +1,43 @@
+<Defs>
+    <!-- 麻辣兔头配方 -->
+    <RecipeDef MayRequire="RooAndGloomy.YuranRaceMod">
+        <defName>AC_CookSpicyRabbitHead</defName>
+        <label>Cook Spicy Rabbit Head</label>
+        <description>Prepare a spicy rabbit head dish, known for its intense flavor and heat.</description>
+        <jobString>Cooking Spicy Rabbit Head.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <fixedIngredientFilter Inherit="false" />
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_Yuran_Race</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Yuran_Race</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_SpicyRabbitHead>1</AC_SpicyRabbitHead>
+        </products>
+        <skillRequirements>
+            <Cooking>4</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+</Defs>

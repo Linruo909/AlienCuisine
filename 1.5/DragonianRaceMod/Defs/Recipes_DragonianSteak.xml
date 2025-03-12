@@ -1,0 +1,85 @@
+<Defs>
+    <!-- 龙娘肉排配方 -->
+    <RecipeDef MayRequire="RooAndGloomy.DragonianRaceMod">
+        <defName>AC_CookDragonianSteak</defName>
+        <label>Cook Dragonian Steak</label>
+        <description>Grill a delicious steak made from Dragonian meat, rich in protein and flavor.</description>
+        <jobString>Cooking Dragonian Steak.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <fixedIngredientFilter Inherit="false" />
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_Dragonian_Race</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Dragonian_Race</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_DragonianSteak>1</AC_DragonianSteak>
+        </products>
+        <skillRequirements>
+            <Cooking>0</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+	<!-- 龙娘肉排x4配方 -->
+    <RecipeDef MayRequire="RooAndGloomy.DragonianRaceMod">
+        <defName>AC_CookDragonianSteakFour</defName>
+        <label>Cook Dragonian Steak x4</label>
+        <description>Grill a delicious steak made from Dragonian meat, rich in protein and flavor.</description>
+        <jobString>Cooking Dragonian Steak x4.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <fixedIngredientFilter Inherit="false" />
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_Dragonian_Race</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Dragonian_Race</li>
+                    </thingDefs>
+                </filter>
+                <count>75</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_DragonianSteak>4</AC_DragonianSteak>
+        </products>
+        <skillRequirements>
+            <Cooking>0</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+	
+</Defs>

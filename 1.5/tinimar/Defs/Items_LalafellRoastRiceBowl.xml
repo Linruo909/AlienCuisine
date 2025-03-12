@@ -1,0 +1,30 @@
+<Defs>
+	<ThingDef MayRequire="nsns.tinimar" ParentName="MealCooked">
+		<defName>AC_LalafellRoastRiceBowl</defName>
+		<label>Lalafell Roast Rice Bowl</label>
+		<description>A delicious rice bowl topped with roasted Lalafell meat, known for its rich flavor and health benefits.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_LalafellRoastRiceBowlBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/LalafellRoastRiceBowl</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>60</MarketValue>
+			<WorkToMake>400</WorkToMake>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>25</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_LalafellRoastRiceBowlBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+</Defs>

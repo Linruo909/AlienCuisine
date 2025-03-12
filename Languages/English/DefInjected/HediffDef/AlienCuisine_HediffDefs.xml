@@ -1,0 +1,74 @@
+<LanguageData>
+    <!-- Dragonian Steak Effect -->
+    <AC_DragonianSteakBuff.label>Dragonian Steak Effect</AC_DragonianSteakBuff.label>
+    <AC_DragonianSteakBuff.description>After eating Dragonian Steak, ranged abilities decrease, but defense is increased.</AC_DragonianSteakBuff.description>
+
+    <!-- Spicy Rabbit Head Effect -->
+    <AC_SpicyRabbitHeadBuff.label>Spicy Rabbit Effect</AC_SpicyRabbitHeadBuff.label>
+    <AC_SpicyRabbitHeadBuff.description>After eating Spicy Rabbit, your mindset becomes clearer.</AC_SpicyRabbitHeadBuff.description>
+
+    <!-- Grilled MoeLotl Effect -->
+    <AC_GrilledMoeLotlBuff.label>Grilled MoeLotl Effect</AC_GrilledMoeLotlBuff.label>
+    <AC_GrilledMoeLotlBuff.description>After eating Grilled MoeLotl, your body becomes more energetic.</AC_GrilledMoeLotlBuff.description>
+
+    <!-- Milira Stew Effect -->
+    <AC_MiliraStewBuff.label>Milira Stew Effect</AC_MiliraStewBuff.label>
+    <AC_MiliraStewBuff.description>After eating Milira Stew, your thoughts become broader.</AC_MiliraStewBuff.description>
+
+	<!-- Fox Radish Effect -->
+	<AC_CarroxBuff.label>Fox Radish Effect</AC_CarroxBuff.label>
+	<AC_CarroxBuff.description>After consuming the Fox Radish, your psychic insight has deepened.</AC_CarroxBuff.description>	
+	
+	<!-- Cheese Snow Leopard Effect -->
+	<AC_MaruCheeseBuff.label>Maru Cheese Effect</AC_MaruCheeseBuff.label>
+	<AC_MaruCheeseBuff.description>After consuming the Maru Cheese, you temporarily gain the power of the Maru tribe.</AC_MaruCheeseBuff.description>
+	
+	<!-- Kiiro Instant Noodles Effect -->
+    <AC_KiiroNoodlesBuff.label>Kiiro Instant Noodles Effect</AC_KiiroNoodlesBuff.label>
+    <AC_KiiroNoodlesBuff.description>After eating Kiiro instant noodles, the quality of life will improve.</AC_KiiroNoodlesBuff.description>
+	
+	<!-- Moyo Syrup Effect -->
+    <AC_MoyoSyrupBuff.label>Moyo Syrup Effect</AC_MoyoSyrupBuff.label>
+    <AC_MoyoSyrupBuff.description>After consuming Moyo Syrup, immunity will be enhanced.</AC_MoyoSyrupBuff.description>
+	
+	<!-- ViVi Cake Effect -->
+	<AC_ViViCakeBuff.label>ViVi Cake Effect</AC_ViViCakeBuff.label>
+	<AC_ViViCakeBuff.description>After consuming the ViVi Cake, work efficiency will increase.</AC_ViViCakeBuff.description>
+
+	<!-- Anty Sauce Effect -->
+	<AC_AntySauceBuff.label>Anty Sauce Effect</AC_AntySauceBuff.label>
+	<AC_AntySauceBuff.description>After consuming Anty Sauce, heat resistance will temporarily improve, and carrying capacity will increase.</AC_AntySauceBuff.description>
+
+	<!-- Sweet and Sour Kurin Effect -->
+	<AC_SweetAndSourKurinBuff.label>Sweet and Sour Kurin Effect</AC_SweetAndSourKurinBuff.label>
+	<AC_SweetAndSourKurinBuff.description>After consuming Sweet and Sour Kurin, social abilities will improve.</AC_SweetAndSourKurinBuff.description>
+
+	<!-- Moose Antler Roast -->
+    <AC_MooseAntlerRoastBuff.label>Moose Antler Roast Effect</AC_MooseAntlerRoastBuff.label>
+    <AC_MooseAntlerRoastBuff.description>After consuming the Moose Antler Roast, your brute strength will become more effective.</AC_MooseAntlerRoastBuff.description>
+	
+	<!-- Lalafell Roast Meat Rice Bowl -->
+    <AC_LalafellRoastRiceBowlBuff.label>Lalafell Roast Meat Rice Bowl Effect</AC_LalafellRoastRiceBowlBuff.label>
+    <AC_LalafellRoastRiceBowlBuff.description>After eating the Lalafell Roast Meat Rice Bowl, your appetite will become more vigorous.</AC_LalafellRoastRiceBowlBuff.description>
+	
+	<!-- YeLong Meatball -->
+    <AC_YeLongRouWanBuff.label>YeLong Meatball Effect</AC_YeLongRouWanBuff.label>
+    <AC_YeLongRouWanBuff.description>After eating YeLong meatballs, the body becomes light, senses sharpened, almost as if one can foresee danger.</AC_YeLongRouWanBuff.description>
+
+    <!-- Knowledge Bread -->
+    <AC_KnowledgeBreadBuff.label>Knowledge Bread Effect</AC_KnowledgeBreadBuff.label>
+    <AC_KnowledgeBreadBuff.description>After eating Knowledge Bread, the mind seems to be filled with knowledge.</AC_KnowledgeBreadBuff.description>
+
+	<!-- Dragon-Tiger Fight -->
+	<AC_LongHuDouBuff.label>Dragon-Tiger Fight</AC_LongHuDouBuff.label>
+	<AC_LongHuDouBuff.description>After consuming Dragon-Tiger Fight, you will experience the spiritual power of the dragon and the tiger.</AC_LongHuDouBuff.description>
+
+	<!-- Dragon and Phoenix Presenting Auspice -->
+	<AC_LongFengBuff.label>Dragon and Phoenix Presenting Auspice</AC_LongFengBuff.label>
+	<AC_LongFengBuff.description>After consuming Dragon and Phoenix Presenting Auspice, you will receive the blessings of Chinese auspiciousness.</AC_LongFengBuff.description>
+
+	<!-- White Cut Chicken -->
+	<AC_WhiteCutChickBuff.label>White Cut Chicken</AC_WhiteCutChickBuff.label>
+	<AC_WhiteCutChickBuff.description>After consuming White Cut Chicken, you will become more knowledgeable and learned.</AC_WhiteCutChickBuff.description>
+
+</LanguageData>

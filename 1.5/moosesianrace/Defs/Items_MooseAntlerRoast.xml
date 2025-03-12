@@ -1,0 +1,36 @@
+<Defs>
+	<ThingDef MayRequire="waffelf.moosesianrace" ParentName="MealCooked">
+		<defName>AC_MooseAntlerRoast</defName>
+		<label>Moose Antler Roast</label>
+		<description>A hearty roast made from Moosesian meat, known for its unique flavor and health benefits.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_MooseAntlerRoastBuff</HediffDef>
+			<HediffDef>AC_MooseAntlerRoastBuff2</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/MooseAntlerRoast</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>1.8</Mass> 
+			<MarketValue>60</MarketValue>
+			<WorkToMake>500</WorkToMake>
+			<Nutrition>1.0</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_MooseAntlerRoastBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_MooseAntlerRoastBuff2</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+</Defs>

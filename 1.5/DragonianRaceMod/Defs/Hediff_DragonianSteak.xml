@@ -1,0 +1,45 @@
+<Defs>
+    <!-- 龙娘肉排效果 -->
+    <HediffDef MayRequire="RooAndGloomy.DragonianRaceMod">
+    <defName>AC_DragonianSteakBuff</defName>
+    <label>龙娘肉排效果</label>
+    <description>食用龙娘肉排后，远程能力下降，但得到了防御提升。</description>
+    <tendable>false</tendable>
+    <isBad>false</isBad>
+    <defaultLabelColor>(255,0,120)</defaultLabelColor>
+    <hediffClass>HediffWithComps</hediffClass>
+    <initialSeverity>1.0</initialSeverity>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+        <!-- 使用 HediffCompProperties_SeverityPerDay 定义严重性变化 -->
+        <li Class="HediffCompProperties_SeverityPerDay">
+            <severityPerDay>-0.5</severityPerDay>
+            <showHoursToRecover>true</showHoursToRecover>
+        </li>
+    </comps>
+    <stages>
+        <li>
+			<statOffsets>
+				<PainShockThreshold>0.3</PainShockThreshold>
+				<MeleeDodgeChance>5</MeleeDodgeChance>
+				<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+			</statOffsets>
+			<statFactors>
+				<AimingDelayFactor>1.25</AimingDelayFactor>	
+				<IncomingDamageFactor>0.75</IncomingDamageFactor>
+			</statFactors>
+            <capMods>
+                <li>
+                    <capacity>Consciousness</capacity>
+                    <offset>0.15</offset>
+                </li>
+                <li>
+                    <capacity>Moving</capacity>
+                    <offset>0.15</offset>
+                </li>
+            </capMods>
+        </li>
+    </stages>
+	</HediffDef>
+</Defs>

@@ -1,0 +1,30 @@
+<Defs>
+	<ThingDef MayRequire="RooAndGloomy.YuranRaceMod" ParentName="MealCooked">
+		<defName>AC_SpicyRabbitHead</defName>
+		<label>麻辣兔头</label>
+		<description>用兔肉制作的麻辣兔头，辣味十足。</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_SpicyRabbitHeadBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/SpicyRabbitHead</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>70</MarketValue>
+			<WorkToMake>1200</WorkToMake>
+			<Nutrition>0.9</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_SpicyRabbitHeadBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+</Defs>

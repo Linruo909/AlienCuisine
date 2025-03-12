@@ -1,0 +1,38 @@
+<Defs>
+	<ThingDef MayRequire="secretarynexus.secretarynexusracemod" ParentName="MealBase">
+		<defName>AC_WhiteCutChick</defName>
+		<label>白切鸡</label>
+		<description>白切鸡又叫白斩鸡，是一道中华民族特色菜肴，是江浙地区的名馔，在中国南方菜系中普遍存在。</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_WhiteCutChickBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/WhiteCutChick</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>0.25</DeteriorationRate>
+			<Mass>0.1</Mass> 
+			<MarketValue>80</MarketValue>
+			<WorkToMake>1200</WorkToMake>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_WhiteCutChickBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+				<li Class="AlienCuisine.IngestionOutcomeDoer_GiveTrait">
+					<traitDef>GreatMemory</traitDef>
+					<degree>0</degree>
+					<chance>1.0</chance> <!-- 触发概率 -->
+				</li>
+			</outcomeDoers>
+		</ingestible>
+
+	</ThingDef>
+</Defs>

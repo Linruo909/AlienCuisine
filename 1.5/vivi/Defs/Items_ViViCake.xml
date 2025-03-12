@@ -1,0 +1,31 @@
+<Defs>
+	<ThingDef MayRequire="gguake.race.vivi" ParentName="MealCooked">
+		<defName>AC_ViViCake</defName>
+		<label>ViVi Cake</label>
+		<description>A sweet and fluffy cake made from Vivi meat. It boosts immunity gain speed.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_ViViCakeBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/ViViCake</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.1</Mass> 
+			<MarketValue>40</MarketValue>
+			<WorkToMake>500</WorkToMake>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_ViViCakeBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+</Defs>

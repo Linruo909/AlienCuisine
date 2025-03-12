@@ -1,0 +1,86 @@
+<Defs>
+	<!-- 蚂蚁酱配方 -->
+    <RecipeDef MayRequire="roo.antyracemod">
+        <defName>AC_CookAntySauce</defName>
+        <label>Cook Anty Sauce</label>
+        <description>Prepare a tangy and nutritious sauce using Anty meat. It boosts immunity gain speed.</description>
+        <jobString>Cooking Anty Sauce.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <fixedIngredientFilter Inherit="false" />
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_Anty</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Anty</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_AntySauce>1</AC_AntySauce>
+        </products>
+        <skillRequirements>
+            <Cooking>3</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+	
+	<!-- 蚂蚁酱x6配方 -->
+    <RecipeDef MayRequire="roo.antyracemod">
+        <defName>AC_CookAntySauceSix</defName>
+        <label>Cook Anty Sauce x6</label>
+        <description>Prepare a tangy and nutritious sauce using Anty meat. It boosts immunity gain speed.</description>
+        <jobString>Cooking Anty Sauce x6.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <fixedIngredientFilter Inherit="false" />
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_Anty</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Anty</li>
+                    </thingDefs>
+                </filter>
+                <count>60</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_AntySauce>6</AC_AntySauce>
+        </products>
+        <skillRequirements>
+            <Cooking>3</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+	
+</Defs>

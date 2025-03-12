@@ -1,0 +1,33 @@
+<Defs>
+	<!-- 冶龙肉丸效果 -->
+	<HediffDef MayRequire="ny.smeltedloong">
+		<defName>AC_YeLongRouWanBuff</defName>
+		<label>冶龙肉丸效果</label>
+		<description>食用后，身体变得轻盈，感知敏锐，仿佛能预知危险。</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(150, 200, 255)</defaultLabelColor> <!-- 浅蓝色效果标签 -->
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<!-- 效果持续时间为2天 -->
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.4</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeDodgeChance>0.25</MeleeDodgeChance> <!-- 近战闪避提升 -->
+					<MoveSpeed>0.8</MoveSpeed>
+				</statOffsets>
+				<statFactors>
+					<AimingDelayFactor>0.5</AimingDelayFactor> <!-- 瞄准延迟减少 -->
+					<PawnTrapSpringChance>0.1</PawnTrapSpringChance> <!-- 陷阱触发概率降低 -->
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

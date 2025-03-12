@@ -1,0 +1,46 @@
+<Defs>
+	<!-- 绮罗方便面配方 -->
+    <RecipeDef MayRequire="ancot.kiirorace">
+        <defName>AC_CookKiiroNoodles</defName>
+        <label>Cook Kiiro Noodles</label>
+        <description>Prepare a quick and tasty noodle dish using Kiiro meat.</description>
+        <jobString>Cooking Kiiro Noodles.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+		<interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <fixedIngredientFilter Inherit="false" />
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_Kiiro_Race</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Kiiro_Race</li>
+                    </thingDefs>
+                </filter>
+                <count>15</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_KiiroNoodles>1</AC_KiiroNoodles>
+        </products>
+        <skillRequirements>
+            <Cooking>3</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+	
+	
+</Defs>

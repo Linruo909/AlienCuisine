@@ -1,0 +1,45 @@
+<Defs>
+	<!-- 冶龙肉丸配方 -->
+	<RecipeDef MayRequire="ny.smeltedloong">
+		<defName>AC_CookYeLongRouWan</defName>
+		<label>烹饪冶龙肉丸</label>
+		<description>将冶龙的肉制成弹嫩的肉丸，传说食用后能让人身轻如燕，感知敏锐。</description>
+		<jobString>正在烹饪冶龙肉丸。</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<fixedIngredientFilter Inherit="false" />
+		<recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+			<li MayRequire="ny.smeltedloong">NY_TableFurnace</li> <!-- Mod自带的灶台 -->
+		</recipeUsers>
+		<workSkill>Cooking</workSkill>
+		<defaultIngredientFilter>
+			<thingDefs Inherit="false">
+				<li>Meat_ForgingDragon</li> <!-- 食材为龙肉 -->
+			</thingDefs>
+		</defaultIngredientFilter>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Meat_ForgingDragon</li>
+					</thingDefs>
+				</filter>
+				<count>18</count> <!-- 每份肉丸需要18单位龙肉 -->
+			</li>
+		</ingredients>
+		<products>
+			<AC_YeLongRouWan>1</AC_YeLongRouWan> <!-- 每次制作产出1个肉丸 -->
+		</products>
+		<skillRequirements>
+			<Cooking>4</Cooking> <!-- 需要烹饪等级4 -->
+		</skillRequirements>
+	</RecipeDef>
+	
+</Defs>

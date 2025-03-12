@@ -1,0 +1,85 @@
+<Defs>
+	<!-- 糖醋魅狐配方 -->
+    <RecipeDef MayRequire="seioch.kurin.har">
+        <defName>AC_CookSweetAndSourKurin</defName>
+        <label>Cook Sweet and Sour Kurin</label>
+        <description>Rumors say that Kurin tails are untouchable, but colonists didn't believe it, and thus this dish was born.</description>
+        <jobString>Cooking Sweet and Sour Kurin.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <fixedIngredientFilter Inherit="false" />
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_Kurin_Race</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Kurin_Race</li>
+                    </thingDefs>
+                </filter>
+                <count>18</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_SweetAndSourKurin>1</AC_SweetAndSourKurin>
+        </products>
+        <skillRequirements>
+            <Cooking>4</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+	<!-- 糖醋魅狐x4配方 -->
+    <RecipeDef MayRequire="seioch.kurin.har">
+        <defName>AC_CookSweetAndSourKurinFour</defName>
+        <label>Cook Sweet and Sour Kurin x4</label>
+        <description>Rumors say that Kurin tails are untouchable, but colonists didn't believe it, and thus this dish was born.</description>
+        <jobString>Cooking Sweet and Sour Kurin x4.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <fixedIngredientFilter Inherit="false" />
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_Kurin_Race</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Kurin_Race</li>
+                    </thingDefs>
+                </filter>
+                <count>72</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_SweetAndSourKurin>4</AC_SweetAndSourKurin>
+        </products>
+        <skillRequirements>
+            <Cooking>4</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+	
+</Defs>

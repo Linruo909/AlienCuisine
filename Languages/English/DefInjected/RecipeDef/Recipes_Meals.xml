@@ -1,0 +1,116 @@
+<LanguageData>
+    <!-- Dragonian Steak Recipe -->
+    <AC_CookDragonianSteak.label>Grilled Dragonian Steak</AC_CookDragonianSteak.label>
+    <AC_CookDragonianSteak.description>Cooked with the tender meat of a Dragonian, rich in protein and flavor. Due to the toughness of the meat, it requires simple preparation; be careful with the heat while cooking.</AC_CookDragonianSteak.description>
+    <AC_CookDragonianSteak.jobString>Grilling Dragonian Steak.</AC_CookDragonianSteak.jobString>
+    <!-- Dragonian Steak x4 Recipe -->
+    <AC_CookDragonianSteakFour.label>Grilled Dragonian Steak x4</AC_CookDragonianSteakFour.label>
+    <AC_CookDragonianSteakFour.description>Cooked with the tender meat of a Dragonian, rich in protein and flavor. Due to the toughness of the meat, it requires simple preparation; be careful with the heat while cooking.</AC_CookDragonianSteakFour.description>
+    <AC_CookDragonianSteakFour.jobString>Grilling Dragonian Steak x4.</AC_CookDragonianSteakFour.jobString>
+
+    <!-- Spicy Rabbit Head Recipe -->
+    <AC_CookSpicyRabbitHead.label>Cooking Spicy Rabbit Head</AC_CookSpicyRabbitHead.label>
+    <AC_CookSpicyRabbitHead.description>Cooked with the meat of the Yuran, the recipe is taught by Archotech.</AC_CookSpicyRabbitHead.description>
+    <AC_CookSpicyRabbitHead.jobString>Cooking Spicy Rabbit Head.</AC_CookSpicyRabbitHead.jobString>
+
+    <!-- Grilled Moe Lotl Recipe -->
+    <AC_CookGrilledMoeLotl.label>Grilled Moe Lotl</AC_CookGrilledMoeLotl.label>
+    <AC_CookGrilledMoeLotl.description>Grilled Moe Lotl meat on skewers, crispy on the outside and tender on the inside. Such tender meat is rare in the Rimworld.</AC_CookGrilledMoeLotl.description>
+    <AC_CookGrilledMoeLotl.jobString>Grilling Moe Lotl.</AC_CookGrilledMoeLotl.jobString>
+    <!-- Grilled Moe Lotl x4 Recipe -->
+    <AC_CookGrilledMoeLotlFour.label>Grilled Moe Lotl x4</AC_CookGrilledMoeLotlFour.label>
+    <AC_CookGrilledMoeLotlFour.description>Grilled Moe Lotl meat on skewers, crispy on the outside and tender on the inside. Such tender meat is rare in the Rimworld.</AC_CookGrilledMoeLotlFour.description>
+    <AC_CookGrilledMoeLotlFour.jobString>Grilling Moe Lotl x4.</AC_CookGrilledMoeLotlFour.jobString>
+    
+    <!-- Milira Meat Stew Recipe -->
+    <AC_CookMiliraStew.label>Cooking Milira Meat Stew</AC_CookMiliraStew.label>
+    <AC_CookMiliraStew.description>Made with Milira meat for a rich stew, though delicious, it has a strange texture.</AC_CookMiliraStew.description>
+    <AC_CookMiliraStew.jobString>Cooking Milira Meat Stew.</AC_CookMiliraStew.jobString>
+
+    <!-- Carrox Recipe -->
+    <AC_CookCarrox.label>Synthesizing Carrox x2</AC_CookCarrox.label>
+    <AC_CookCarrox.description>Synthesizing a bionic vegetarian dish from the meat of the beautiful Fox Tribe. Although the Fox Tribe is beautiful, their meat is not easily tolerated by most.</AC_CookCarrox.description>
+    <AC_CookCarrox.jobString>Synthesizing Carrox x2.</AC_CookCarrox.jobString>
+    <!-- Carrox x8 Recipe -->
+    <AC_CookCarroxFour.label>Synthesizing Carrox x8</AC_CookCarroxFour.label>
+    <AC_CookCarroxFour.description>Synthesizing a bionic vegetarian dish from the meat of the beautiful Fox Tribe. Although the Fox Tribe is beautiful, their meat is not easily tolerated by most.</AC_CookCarroxFour.description>
+    <AC_CookCarroxFour.jobString>Synthesizing Carrox x8.</AC_CookCarroxFour.jobString>
+
+    <!-- Cheese Maru Recipe -->
+    <AC_CookMaruCheese.label>Making Cheese Maru</AC_CookMaruCheese.label>
+    <AC_CookMaruCheese.description>Made with Maru's meat to create a cheese meat cake. As long as it's thoroughly crushed, it still has a distinctive snow mountain flavor.</AC_CookMaruCheese.description>
+    <AC_CookMaruCheese.jobString>Making Cheese Maru.</AC_CookMaruCheese.jobString>
+
+	<!-- Kiiro Instant Noodles Recipe -->
+    <AC_CookKiiroNoodles.label>Making Kiiro Instant Noodles</AC_CookKiiroNoodles.label>
+    <AC_CookKiiroNoodles.description>Processing Kiiro meat into noodle-like meat strips may confuse some, who might think it is a bowl of little cat tails.</AC_CookKiiroNoodles.description>
+    <AC_CookKiiroNoodles.jobString>Making Kiiro Instant Noodles.</AC_CookKiiroNoodles.jobString>
+	
+	<!-- Moyo Syrup Recipe -->
+    <AC_CookMoyoSyrup.label>Making Moyo Syrup</AC_CookMoyoSyrup.label>
+    <AC_CookMoyoSyrup.description>The syrup extracted from the Moyo's meat, truly a delicacy from a sea slug.</AC_CookMoyoSyrup.description>
+    <AC_CookMoyoSyrup.jobString>Making Moyo Syrup.</AC_CookMoyoSyrup.jobString>
+	
+	<!-- Vivi Biscuit Recipe -->
+	<AC_CookViViCake.label>Making Vivi Cake</AC_CookViViCake.label>
+	<AC_CookViViCake.description>Press Vivi's meat into paste to make a honey Cake. Vivi meat naturally has a sweet flavor, so no deep processing is needed to make a sweet meat cake.</AC_CookViViCake.description>
+	<AC_CookViViCake.jobString>Making Vivi Cake.</AC_CookViViCake.jobString>
+
+	<!-- Ant Sauce Recipe -->
+	<AC_CookAntySauce.label>Making Anty Sauce</AC_CookAntySauce.label>
+	<AC_CookAntySauce.description>Press the meat of the anty into a paste to get this small jar of sauce, which can be eaten directly.</AC_CookAntySauce.description>
+	<AC_CookAntySauce.jobString>Making Anty Sauce.</AC_CookAntySauce.jobString>
+	<!-- Ant Sauce x6 Recipe -->
+	<AC_CookAntySauceSix.label>Making Anty Sauce x6</AC_CookAntySauceSix.label>
+	<AC_CookAntySauceSix.description>Press the meat of the anty into a paste to get this small jar of sauce, which can be eaten directly.</AC_CookAntySauceSix.description>
+	<AC_CookAntySauceSix.jobString>Making Anty Sauce x6.</AC_CookAntySauceSix.jobString>
+	
+	<!-- Sweet and Sour Kurin Recipe -->
+	<AC_CookSweetAndSourKurin.label>Cooking Sweet and Sour Kurin</AC_CookSweetAndSourKurin.label>
+	<AC_CookSweetAndSourKurin.description>Cooking Sweet and Sour Kurin with Kurin meat, this flavor is more popular in the East.</AC_CookSweetAndSourKurin.description>
+	<AC_CookSweetAndSourKurin.jobString>Currently cooking Sweet and Sour Kurin.</AC_CookSweetAndSourKurin.jobString>
+	<!-- Sweet and Sour Kurin x4 Recipe -->
+	<AC_CookSweetAndSourKurinFour.label>Cooking Sweet and Sour Kurin x4</AC_CookSweetAndSourKurinFour.label>
+	<AC_CookSweetAndSourKurinFour.description>Cooking Sweet and Sour Kurin with Kurin meat, this flavor is more popular in the East.</AC_CookSweetAndSourKurinFour.description>
+	<AC_CookSweetAndSourKurinFour.jobString>Currently cooking Sweet and Sour Kurin x4.</AC_CookSweetAndSourKurinFour.jobString>
+
+	<!-- Moose Antler Roast -->
+	<AC_CookMooseAntlerRoast.label>Cooking Moose Antler Roast</AC_CookMooseAntlerRoast.label>
+	<AC_CookMooseAntlerRoast.description>Delicious dish made from moose antler meat, flavorful and rich in nutrition, beloved by diners.</AC_CookMooseAntlerRoast.description>
+	<AC_CookMooseAntlerRoast.jobString>Currently cooking Moose Antler Roast.</AC_CookMooseAntlerRoast.jobString>
+
+	<!-- Lalafell Roast Rice Bowl -->
+	<AC_CookLalafellRoastRiceBowl.label>Cooking Lalafell Roast Rice Bowl</AC_CookLalafellRoastRiceBowl.label>
+	<AC_CookLalafellRoastRiceBowl.description>Mixing Lalafell roast meat with rice, creating a fragrant, unique, and unforgettable dish.</AC_CookLalafellRoastRiceBowl.description>
+	<AC_CookLalafellRoastRiceBowl.jobString>Currently cooking Lalafell Roast Rice Bowl.</AC_CookLalafellRoastRiceBowl.jobString>
+
+	<!-- YeLong Meatball Recipe -->
+    <AC_CookYeLongRouWan.label>Cooking YeLong Meatball</AC_CookYeLongRouWan.label>
+    <AC_CookYeLongRouWan.description>Made from the meat of YeLong, this tender meatball is said to grant a light body and heightened senses after consumption.</AC_CookYeLongRouWan.description>
+    <AC_CookYeLongRouWan.jobString>Cooking YeLong Meatball.</AC_CookYeLongRouWan.jobString>
+
+    <!-- Knowledge Bread Recipe -->
+    <AC_CookKnowledgeBread.label>Cooking Knowledge Bread</AC_CookKnowledgeBread.label>
+    <AC_CookKnowledgeBread.description>A mysterious bread made from Secretary Rabbit meat. It is said to have originally grown from a pocket.</AC_CookKnowledgeBread.description>
+    <AC_CookKnowledgeBread.jobString>Cooking Knowledge Bread.</AC_CookKnowledgeBread.jobString>
+    <!-- Knowledge Bread x5 Recipe -->
+    <AC_CookKnowledgeBreadFive.label>Cooking Knowledge Bread x5</AC_CookKnowledgeBreadFive.label>
+    <AC_CookKnowledgeBreadFive.description>A mysterious bread made from Secretary Rabbit meat. It is said to have originally grown from a pocket.</AC_CookKnowledgeBreadFive.description>
+    <AC_CookKnowledgeBreadFive.jobString>Cooking Knowledge Bread x5.</AC_CookKnowledgeBreadFive.jobString>
+
+	<!-- Dragon-Tiger Fight -->
+	<AC_CookLongHuDou.label>Cooking Dragon-Tiger Fight</AC_CookLongHuDou.label>
+	<AC_CookLongHuDou.description>This dish depicts the story of Dragonian and Kiiro Cat competing for territory in 5509</AC_CookLongHuDou.description>
+	<AC_CookLongHuDou.jobString>Cooking Dragon-Tiger Fight.</AC_CookLongHuDou.jobString>
+
+	<!-- Dragon and Phoenix Presenting Auspice -->
+	<AC_CookLongFeng.label>Cooking Dragon and Phoenix Presenting Auspice</AC_CookLongFeng.label>
+	<AC_CookLongFeng.description>Symbolizing auspiciousness, with traditional embellishments.</AC_CookLongFeng.description>
+	<AC_CookLongFeng.jobString>Cooking Dragon and Phoenix Presenting Auspice.</AC_CookLongFeng.jobString>
+
+	<!-- White Cut Chicken -->
+	<AC_CookWhiteCutChick.label>Cooking White Cut Chicken</AC_CookWhiteCutChick.label>
+	<AC_CookWhiteCutChick.description>The recipe for White Cut Chicken comes from Northern cuisine. It was born alongside Tang Dynasty "quick meals" and is a fusion product brought by the migration of scholars and commoners to the South during the Song Dynasty, bringing cultural exchange in food between the regions.</AC_CookWhiteCutChick.description>
+	<AC_CookWhiteCutChick.jobString>Cooking White Cut Chicken.</AC_CookWhiteCutChick.jobString>
+
+</LanguageData>

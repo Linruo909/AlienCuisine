@@ -1,0 +1,34 @@
+<Defs>
+	<ThingDef MayRequire="miho.fortifiedoutremer" ParentName="MealBase">
+		<defName>AC_Carrox</defName>
+		<label>狐萝卜</label>
+		<description>在边缘世界里，不是所有土地都能安全地种出粮食，吃多了肉制品还是会想念素食的。</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_CarroxBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/Carrox</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>0.25</DeteriorationRate>
+			<Mass>0.5</Mass> 
+			<MarketValue>30</MarketValue>
+			<WorkToMake>400</WorkToMake>
+			<Nutrition>0.4</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_CarroxBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+
+			</outcomeDoers>
+		</ingestible>
+		
+	</ThingDef>
+</Defs>

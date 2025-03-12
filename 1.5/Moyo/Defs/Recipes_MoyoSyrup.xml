@@ -1,0 +1,45 @@
+<Defs>
+	<!-- 茉约琼浆配方 -->
+    <RecipeDef MayRequire="nemonian.my">
+        <defName>AC_CookMoyoSyrup</defName>
+        <label>Cook Moyo Syrup</label>
+        <description>Prepare a sweet and potent syrup using Moyo meat. It boosts immunity gain speed.</description>
+        <jobString>Cooking Moyo Syrup.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+		<interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <fixedIngredientFilter Inherit="false" />
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_Alien_Moyo</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Alien_Moyo</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_MoyoSyrup>1</AC_MoyoSyrup>
+        </products>
+        <skillRequirements>
+            <Cooking>4</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+	
+</Defs>

@@ -1,0 +1,45 @@
+<Defs>
+	<!-- 薇薇蜜饼配方 -->
+    <RecipeDef MayRequire="gguake.race.vivi">
+        <defName>AC_CookViViCake</defName>
+        <label>Cook ViVi Cake</label>
+        <description>Prepare a sweet and fluffy cake using Vivi meat. It boosts immunity gain speed.</description>
+        <jobString>Cooking ViVi Cake.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <fixedIngredientFilter Inherit="false" />
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_VV_Vivi</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_VV_Vivi</li>
+                    </thingDefs>
+                </filter>
+                <count>15</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_ViViCake>1</AC_ViViCake>
+        </products>
+        <skillRequirements>
+            <Cooking>4</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+
+	
+</Defs>

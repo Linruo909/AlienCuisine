@@ -1,0 +1,33 @@
+<Defs>
+	<ThingDef MayRequire="ancot.kiirorace" ParentName="MealBase">
+		<defName>AC_KiiroNoodles</defName>
+		<label>Kiiro Noodles</label>
+		<description>A quick and tasty noodle dish made from Kiiro meat.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_KiiroNoodlesBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/KiiroNoodles</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>0.25</DeteriorationRate>
+			<Mass>0.2</Mass> 
+			<MarketValue>30</MarketValue>
+			<WorkToMake>200</WorkToMake>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_KiiroNoodlesBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+
+	</ThingDef>
+</Defs>

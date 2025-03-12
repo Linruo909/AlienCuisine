@@ -1,0 +1,74 @@
+<LanguageData>
+    <!-- 龙娘肉排效果 -->
+    <AC_DragonianSteakBuff.label>龙娘肉排效果</AC_DragonianSteakBuff.label>
+    <AC_DragonianSteakBuff.description>食用龙娘肉排后，远程能力下降了，但得到了防御提升。</AC_DragonianSteakBuff.description>
+
+    <!-- 麻辣兔头效果 -->
+    <AC_SpicyRabbitHeadBuff.label>麻辣兔头效果</AC_SpicyRabbitHeadBuff.label>
+    <AC_SpicyRabbitHeadBuff.description>食用麻辣兔头后，心境变得更澄澈了。</AC_SpicyRabbitHeadBuff.description>
+
+    <!-- 烤萌螈效果 -->
+    <AC_GrilledMoeLotlBuff.label>烤萌螈效果</AC_GrilledMoeLotlBuff.label>
+    <AC_GrilledMoeLotlBuff.description>食用烤萌螈后，身体变得更活跃了。</AC_GrilledMoeLotlBuff.description>
+
+    <!-- 米莉拉肉汤效果 -->
+    <AC_MiliraStewBuff.label>米莉拉肉汤效果</AC_MiliraStewBuff.label>
+    <AC_MiliraStewBuff.description>食用米莉拉肉汤后，思维变得更开阔了。</AC_MiliraStewBuff.description>
+	
+	<!-- 狐萝卜效果 -->
+    <AC_CarroxBuff.label>狐萝卜效果</AC_CarroxBuff.label>
+    <AC_CarroxBuff.description>食用狐萝卜后，灵能感悟更深刻了。</AC_CarroxBuff.description>
+	
+	<!-- 芝士雪豹效果 -->
+    <AC_MaruCheeseBuff.label>芝士雪豹效果</AC_MaruCheeseBuff.label>
+    <AC_MaruCheeseBuff.description>食用芝士雪豹后，在大雪中生存的概率提高了。</AC_MaruCheeseBuff.description>
+	
+	<!-- 绮罗方便面效果 -->
+    <AC_KiiroNoodlesBuff.label>绮罗方便面效果</AC_KiiroNoodlesBuff.label>
+    <AC_KiiroNoodlesBuff.description>食用绮罗方便面后，生活质量将会提高。</AC_KiiroNoodlesBuff.description>
+	
+	<!-- 茉约琼浆效果 -->
+    <AC_MoyoSyrupBuff.label>茉约琼浆效果</AC_MoyoSyrupBuff.label>
+    <AC_MoyoSyrupBuff.description>食用茉约琼浆后，免疫力将会提高。</AC_MoyoSyrupBuff.description>
+	
+	<!-- 薇薇蜜饼效果 -->
+    <AC_ViViCakeBuff.label>薇薇蜜饼效果</AC_ViViCakeBuff.label>
+    <AC_ViViCakeBuff.description>食用薇薇蜜饼后，工作变得更勤奋了。</AC_ViViCakeBuff.description>
+	
+	<!-- 蚂蚁酱效果 -->
+    <AC_AntySauceBuff.label>蚂蚁酱效果</AC_AntySauceBuff.label>
+    <AC_AntySauceBuff.description>食用蚂蚁酱后，暂时耐热了，携带能力也会上升。</AC_AntySauceBuff.description>
+	
+	<!-- 糖醋魅狐效果 -->
+    <AC_SweetAndSourKurinBuff.label>糖醋魅狐效果</AC_SweetAndSourKurinBuff.label>
+    <AC_SweetAndSourKurinBuff.description>食用糖醋魅狐后，社交能力将会提高。</AC_SweetAndSourKurinBuff.description>
+	
+	<!-- 鹿茸烤肉 -->
+	<AC_MooseAntlerRoastBuff.label>鹿茸烤肉效果</AC_MooseAntlerRoastBuff.label>
+    <AC_MooseAntlerRoastBuff.description>食用鹿茸烤肉后，蛮力将会变得更有效。</AC_MooseAntlerRoastBuff.description>
+	
+	<!-- 拉拉肥烤肉拌饭 -->
+    <AC_LalafellRoastRiceBowlBuff.label>拉拉肥烤肉拌饭效果</AC_LalafellRoastRiceBowlBuff.label>
+    <AC_LalafellRoastRiceBowlBuff.description>食用拉拉肥烤肉拌饭后，食欲变得更旺盛了。</AC_LalafellRoastRiceBowlBuff.description>
+
+	<!-- 冶龙肉丸 -->
+    <AC_YeLongRouWanBuff.label>冶龙肉丸效果</AC_YeLongRouWanBuff.label>
+    <AC_YeLongRouWanBuff.description>食用冶龙肉丸后，身体变得轻盈，感知敏锐，仿佛能预知危险。</AC_YeLongRouWanBuff.description>
+
+	<!-- 知识面包 -->
+    <AC_KnowledgeBreadBuff.label>知识面包效果</AC_KnowledgeBreadBuff.label>
+    <AC_KnowledgeBreadBuff.description>食用知识面包后，大脑仿佛被知识充盈。</AC_KnowledgeBreadBuff.description>
+
+	<!-- 龙虎斗 -->
+    <AC_LongHuDouBuff.label>龙虎斗</AC_LongHuDouBuff.label>
+    <AC_LongHuDouBuff.description>食用龙虎斗后，感受到了龙与虎的精神力。</AC_LongHuDouBuff.description>
+
+	<!-- 龙凤呈祥 -->
+    <AC_LongFengBuff.label>龙凤呈祥</AC_LongFengBuff.label>
+    <AC_LongFengBuff.description>食用龙凤呈祥后，得到了中华祥瑞的祝福。</AC_LongFengBuff.description>
+
+	<!-- 白切鸡 -->
+    <AC_WhiteCutChickBuff.label>白切鸡</AC_WhiteCutChickBuff.label>
+    <AC_WhiteCutChickBuff.description>食用白切鸡后，将会变得博学多识。</AC_WhiteCutChickBuff.description>
+
+</LanguageData>

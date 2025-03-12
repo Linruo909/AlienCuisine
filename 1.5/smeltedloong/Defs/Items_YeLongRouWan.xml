@@ -1,0 +1,31 @@
+<Defs>
+	<ThingDef MayRequire="ny.smeltedloong" ParentName="MealCooked">
+		<defName>AC_YeLongRouWan</defName>
+		<label>冶龙肉丸</label>
+		<description>用冶龙肉制成的弹嫩肉丸，食用后身体轻盈，感知敏锐。</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_YeLongRouWanBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/YeLongRouWan</texPath> <!-- 贴图路径 -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.6</Mass> <!-- 质量 -->
+			<MarketValue>75</MarketValue> <!-- 市场价值 -->
+			<WorkToMake>1000</WorkToMake> <!-- 制作工时 -->
+			<Nutrition>0.9</Nutrition> <!-- 较高的营养价值 -->
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>25</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_YeLongRouWanBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+</Defs>

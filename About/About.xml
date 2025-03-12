@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Alien Cuisine</name>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+	</modDependencies>
+	<loadAfter>
+		<li>RooAndGloomy.DragonianRaceMod</li>
+		<li>RooAndGloomy.YuranRaceMod</li>
+		<li>hentailoliteam.axolotl</li>
+		<li>ancot.milirarace</li>
+		<li>ancot.kiirorace</li>
+		<li>miho.fortifiedoutremer</li>
+		<li>vamv.maruracemod</li>
+		<li>nemonian.my</li>
+		<li>gguake.race.vivi</li>
+		<li>roo.antyracemod</li>
+		<li>seioch.kurin.har</li>
+		<li>waffelf.moosesianrace</li>
+		<li>nsns.tinimar</li>
+		<li>ny.smeltedloong</li>
+		<li>secretarynexus.secretarynexusracemod</li>
+		<li>sutsutman.minchothemintchocoslimeharver</li>
+	</loadAfter>
+	<author>Linruo</author>
+	<packageId>linruo.aliencuisine</packageId>
+	<description>添加了"基于"部分mod种族的食物，(对下游资源进行再加工)。单独添加没有任何效果。\n Add food 'based' on some mod races, alone has no effect.\n
+	目前内容：\n Feature:\n
+	- 龙娘肉排(GloomyDragonianRace)\n Dragonian Steak \n
+	- 麻辣兔头(YuranRace)\n Spicy Rabbit \n
+	- 烤萌螈(MoeLoltRace)\n Grilled MoeLotl \n
+	- 米莉拉肉汤(MiliraRace)\n Milira Stew \n
+	- 狐萝卜(Miho,the celestial fox) \n Fox Radish \n
+	- 雪豹芝士肉糕(MaruRace) \n Maru Cheese \n
+	- 绮罗方便面(KiiroRace) \n Kiiro Noodles \n
+	- 茉约琼浆(Moyo - from the depth) \n Moyo Syrup \n
+	- 薇薇蜜饼(ViviRace) \n ViviCake \n
+	- 蚂蚁酱(Anty the war ant race) \n Anty Sauce \n
+	\n 稍微添加了食用效果，仅供娱乐。\n added hediff,just for fun.\n
+	更多信息详见steam创意工坊For more information, please refer to the Steam Workshop
+	</description>
+</ModMetaData>

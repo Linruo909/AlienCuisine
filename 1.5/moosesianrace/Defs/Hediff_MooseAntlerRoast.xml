@@ -1,0 +1,58 @@
+<Defs>
+	<!-- 鹿茸烤肉效果 -->
+    <HediffDef MayRequire="waffelf.moosesianrace">
+        <defName>AC_MooseAntlerRoastBuff</defName>
+        <label>Moose Antler Roast Buff</label>
+        <description>After consuming Moose Antler Roast, immunity gain speed is increased by 100%.</description>
+        <tendable>false</tendable>
+        <isBad>false</isBad>
+        <defaultLabelColor>(150,200,150)</defaultLabelColor>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>1.0</initialSeverity>
+        <maxSeverity>1.0</maxSeverity>
+        <comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.3</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+        </comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeArmorPenetration>0.5</MeleeArmorPenetration>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">0.3</MeleeDamageFactor>
+				</statOffsets>
+			</li>
+		</stages>
+    </HediffDef>
+		<!-- 鹿茸烤肉效果2 -->
+    <HediffDef>
+        <defName>AC_MooseAntlerRoastBuff2</defName>
+        <label>坚</label>
+        <description>Power!.</description>
+        <tendable>false</tendable>
+        <isBad>false</isBad>
+        <defaultLabelColor>(150,200,150)</defaultLabelColor>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>1.0</initialSeverity>
+        <maxSeverity>1.0</maxSeverity>
+        <comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2.25</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+        </comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<IncomingDamageFactor>-0.25</IncomingDamageFactor>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.6</IncomingDamageFactor>
+					<MeleeDodgeChance>0.8</MeleeDodgeChance>
+				</statFactors>
+			</li>
+		</stages>
+    </HediffDef>
+
+</Defs>

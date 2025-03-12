@@ -1,0 +1,44 @@
+<Defs>
+    <!-- 拉拉肥烤肉拌饭配方 -->
+    <RecipeDef MayRequire="nsns.tinimar">
+        <defName>AC_CookLalafellRoastRiceBowl</defName>
+        <label>Cook Lalafell Roast Rice Bowl</label>
+        <description>A delicious rice bowl topped with roasted Lalafell meat, known for its rich flavor and health benefits.</description>
+        <jobString>Cooking Lalafell Roast Rice Bowl.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <fixedIngredientFilter Inherit="false" />
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_Tinimar_Race</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Tinimar_Race</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_LalafellRoastRiceBowl>1</AC_LalafellRoastRiceBowl>
+        </products>
+        <skillRequirements>
+            <Cooking>4</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+	
+</Defs>

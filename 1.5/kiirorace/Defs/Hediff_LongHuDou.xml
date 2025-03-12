@@ -1,0 +1,34 @@
+<Defs>
+	<!-- 绮罗方便面效果 -->
+    <HediffDef MayRequire="rooandgloomy.dragonianracemod">
+        <defName>AC_LongHuDouBuff</defName>
+        <label>"龙虎斗"</label>
+        <description>食用龙虎斗后，感受到了龙与虎的精神力。</description>
+        <tendable>false</tendable>
+        <isBad>false</isBad>
+        <defaultLabelColor>(250,0,0)</defaultLabelColor>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>1.0</initialSeverity>
+        <maxSeverity>1.0</maxSeverity>
+        <comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>0</severityPerDay>
+				<showHoursToRecover>false</showHoursToRecover>
+			</li>
+        </comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<RestRateMultiplier>0.8</RestRateMultiplier>
+					<PainShockThreshold>0.5</PainShockThreshold>
+					<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+				</statOffsets>
+				<statFactors>
+					<MentalBreakThreshold>0.5</MentalBreakThreshold>
+				</statFactors>
+			</li>
+		</stages>
+    </HediffDef>
+	
+</Defs>

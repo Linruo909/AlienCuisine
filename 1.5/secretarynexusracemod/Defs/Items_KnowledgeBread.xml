@@ -1,0 +1,36 @@
+<Defs>
+	<ThingDef MayRequire="secretarynexus.secretarynexusracemod" ParentName="MealCooked">
+		<defName>AC_KnowledgeBread</defName>
+		<label>知识面包</label>
+		<description>用秘书克隆体的肉制成的神秘面包，食用后能大幅提升学习能力和冥想效果。</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_KnowledgeBreadBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/KnowledgeBread</texPath> <!-- 贴图路径 -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.5</Mass> <!-- 较轻的食物 -->
+			<MarketValue>120</MarketValue> <!-- 较高的市场价值 -->
+			<WorkToMake>2000</WorkToMake> <!-- 较高的制作工时 -->
+			<Nutrition>0.6</Nutrition> <!-- 标准的营养价值 -->
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_KnowledgeBreadBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+				<li Class="AlienCuisine.IngestionOutcomeDoer_GiveTrait">
+					<traitDef>GreatMemory</traitDef>
+					<degree>0</degree>
+					<chance>1.0</chance> <!-- 触发概率 -->
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+</Defs>

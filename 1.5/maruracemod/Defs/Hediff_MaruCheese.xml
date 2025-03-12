@@ -1,0 +1,33 @@
+<Defs>
+	<!-- 芝士雪豹效果 -->
+    <HediffDef MayRequire="vamv.maruracemod">
+        <defName>AC_MaruCheeseBuff</defName>
+        <label>芝士雪豹效果</label>
+        <description>食用芝士雪豹后，在雪山的存活率将会提高。</description>
+        <tendable>false</tendable>
+        <isBad>false</isBad>
+        <defaultLabelColor>(80,180,190)</defaultLabelColor>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>1.0</initialSeverity>
+        <maxSeverity>1.0</maxSeverity>
+        <comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.1</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+        </comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<!-- 最低舒适温度降低至 -40°C -->
+					<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+					<!-- 每日觅食营养增加 2 点 -->
+					<ForagedNutritionPerDay>2</ForagedNutritionPerDay>
+					<!-- 驯服动物几率增加 80% -->
+					<TameAnimalChance>0.8</TameAnimalChance>
+				</statOffsets>
+			</li>
+		</stages>
+    </HediffDef>
+	
+</Defs>

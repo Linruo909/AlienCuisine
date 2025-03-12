@@ -1,0 +1,33 @@
+<Defs>
+	<ThingDef MayRequire="rooandgloomy.dragonianracemod" ParentName="MealBase">
+		<defName>AC_LongHuDou</defName>
+		<label>龙虎斗</label>
+		<description>“龙虎斗”又名“豹狸烩三蛇”，是闻名中外的广东传统名菜。古代曾经作为宫廷佳肴。 本品是以蛇肉为主料的羹汤菜。 精工细作、配料多样、肉嫩香滑、异常鲜美。</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_LongHuDouBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/LongHuDou</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>0.25</DeteriorationRate>
+			<Mass>0.1</Mass> 
+			<MarketValue>120</MarketValue>
+			<WorkToMake>1500</WorkToMake>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_LongHuDouBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+
+	</ThingDef>
+</Defs>

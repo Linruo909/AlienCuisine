@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+  <v1.5>
+    <li></li>
+    <li>1.5</li>
+	<li IfModActive="RooAndGloomy.DragonianRaceMod">1.5/DragonianRaceMod</li>
+	<li IfModActive="RooAndGloomy.YuranRaceMod">1.5/YuranRaceMod</li>
+	<li IfModActive="hentailoliteam.axolotl">1.5/axolotl</li>
+	<li IfModActive="ancot.milirarace">1.5/milirarace</li>
+	<li IfModActive="ancot.kiirorace">1.5/kiirorace</li>
+	<li IfModActive="miho.fortifiedoutremer">1.5/fortifiedoutremer</li>
+	<li IfModActive="vamv.maruracemod">1.5/maruracemod</li>
+	<li IfModActive="nemonian.my">1.5/Moyo</li>
+	<li IfModActive="gguake.race.vivi">1.5/vivi</li>
+	<li IfModActive="roo.antyracemod">1.5/antyracemod</li>
+	<li IfModActive="seioch.kurin.har">1.5/kurin</li>
+	<li IfModActive="waffelf.moosesianrace">1.5/moosesianrace</li>
+	<li IfModActive="nsns.tinimar">1.5/tinimar</li>
+	<li IfModActive="ny.smeltedloong">1.5/smeltedloong</li>
+	<li IfModActive="secretarynexus.secretarynexusracemod">1.5/secretarynexusracemod</li>
+  </v1.5>
+</loadFolders>

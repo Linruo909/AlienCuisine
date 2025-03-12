@@ -1,0 +1,30 @@
+<Defs>
+	<!-- 薇薇蜜饼效果 -->
+    <HediffDef MayRequire="gguake.race.vivi">
+        <defName>AC_ViViCakeBuff</defName>
+        <label>ViVi Cake Buff</label>
+        <description>After consuming ViVi Cake, .</description>
+        <tendable>false</tendable>
+        <isBad>false</isBad>
+        <defaultLabelColor>(240,240,30)</defaultLabelColor>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>1.0</initialSeverity>
+        <maxSeverity>1.0</maxSeverity>
+        <comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.4</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+        </comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MiningYield>0.2</MiningYield>
+					<PlantHarvestYield>0.2</PlantHarvestYield> 
+					<GeneralLaborSpeed>0.6</GeneralLaborSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+</Defs>

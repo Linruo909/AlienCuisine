@@ -1,0 +1,30 @@
+<Defs>
+	<ThingDef MayRequire="roo.antyracemod" ParentName="MealCooked">
+		<defName>AC_AntySauce</defName>
+		<label>Anty Sauce</label>
+		<description>A tangy and nutritious sauce made from Anty meat. It boosts immunity gain speed.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_AntySauceBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/AntySauce</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>60</MarketValue>
+			<WorkToMake>600</WorkToMake>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_AntySauceBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+</Defs>

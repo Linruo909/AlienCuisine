@@ -1,0 +1,38 @@
+<Defs>
+    <!-- 拉拉肥烤肉拌饭效果 -->
+    <HediffDef MayRequire="nsns.tinimar">
+        <defName>AC_LalafellRoastRiceBowlBuff</defName>
+        <label>Lalafell Roast Rice Bowl Buff</label>
+        <description>After consuming Lalafell Roast Rice Bowl, immunity gain speed is increased by 100%.</description>
+        <tendable>false</tendable>
+        <isBad>false</isBad>
+        <defaultLabelColor>(200,150,150)</defaultLabelColor>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>1.0</initialSeverity>
+        <maxSeverity>1.0</maxSeverity>
+        <comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.3</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+        </comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<PawnBeauty>5</PawnBeauty> 
+				</statOffsets>
+				<capMods>
+                <li>
+                    <capacity>Metabolism</capacity>
+                    <offset>0.2</offset>
+                </li>
+                <li>
+                    <capacity>Moving</capacity>
+                    <offset>0.3</offset>
+                </li>
+            </capMods>
+			</li>
+		</stages>
+    </HediffDef>
+	
+</Defs>

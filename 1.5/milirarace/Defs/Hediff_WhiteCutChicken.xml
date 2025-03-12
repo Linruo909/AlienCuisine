@@ -1,0 +1,33 @@
+<Defs>
+	<!-- 白切鸡效果 -->
+    <HediffDef MayRequire="secretarynexus.secretarynexusracemod">
+        <defName>AC_WhiteCutChickBuff</defName>
+        <label>"白切鸡"</label>
+        <description>食用白切鸡后，将会变得博学多识。</description>
+        <tendable>false</tendable>
+        <isBad>false</isBad>
+        <defaultLabelColor>(250,0,0)</defaultLabelColor>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>1.0</initialSeverity>
+        <maxSeverity>1.0</maxSeverity>
+        <comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>0</severityPerDay>
+				<showHoursToRecover>false</showHoursToRecover>
+			</li>
+        </comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeditationFocusGain>1.8</MeditationFocusGain> <!-- 冥想专注增益 -->
+					<ResearchSpeedFactor>0.8</ResearchSpeedFactor>
+					<GlobalLearningFactor>0.6</GlobalLearningFactor> 
+				</statOffsets>
+				<statFactors>
+					<GlobalLearningFactor>1.8</GlobalLearningFactor> <!-- 全局学习效率提升 -->
+				</statFactors>
+			</li>
+		</stages>
+    </HediffDef>
+	
+</Defs>

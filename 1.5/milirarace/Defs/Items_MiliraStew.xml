@@ -1,0 +1,31 @@
+<Defs>
+	<ThingDef MayRequire="ancot.milirarace" ParentName="MealCooked">
+		<defName>AC_MiliraStew</defName>
+		<label>米莉拉肉汤</label>
+		<description>对于这种食物，殖民者之间发生了不少矛盾：有人说这是鸟肉，也有人说这是鸡肉。</description>
+		<descriptionHyperlinks>
+			<HediffDef>AC_MiliraStewBuff</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Meals/MiliraStew</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.3</Mass> 
+			<MarketValue>50</MarketValue>
+			<WorkToMake>800</WorkToMake>
+			<Nutrition>1.0</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+			<ingestEffect>EatMeat</ingestEffect>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_MiliraStewBuff</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+</Defs>

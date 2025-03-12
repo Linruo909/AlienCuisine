@@ -1,0 +1,30 @@
+<Defs>
+	<!-- 蚂蚁酱效果 -->
+    <HediffDef MayRequire="roo.antyracemod">
+        <defName>AC_AntySauceBuff</defName>
+        <label>Anty Sauce Buff</label>
+        <description>After consuming Anty Sauce, .</description>
+        <tendable>false</tendable>
+        <isBad>false</isBad>
+        <defaultLabelColor>(160,150,150)</defaultLabelColor>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>1.0</initialSeverity>
+        <maxSeverity>1.0</maxSeverity>
+        <comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.25</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+        </comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMax>40</ComfyTemperatureMax>
+					<CarryingCapacity>100</CarryingCapacity>
+					<ArmorRating_Heat>0.5</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+</Defs>

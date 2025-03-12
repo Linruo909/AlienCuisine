@@ -1,0 +1,116 @@
+<LanguageData>
+    <!-- 龙娘肉排配方 -->
+    <AC_CookDragonianSteak.label>炭烤龙娘肉排</AC_CookDragonianSteak.label>
+    <AC_CookDragonianSteak.description>用出自于龙娘的鲜美肉排进行烹饪，富含蛋白质和风味。由于肉质硬度较高，只能进行简单处理，烹饪时请控制好火候。</AC_CookDragonianSteak.description>
+    <AC_CookDragonianSteak.jobString>正在烹饪龙娘肉排。</AC_CookDragonianSteak.jobString>
+    <!-- 龙娘肉排x4配方 -->
+    <AC_CookDragonianSteakFour.label>炭烤龙娘肉排 x4</AC_CookDragonianSteakFour.label>
+    <AC_CookDragonianSteakFour.description>用出自于龙娘的鲜美肉排进行烹饪，富含蛋白质和风味。由于肉质硬度较高，只能进行简单处理，烹饪时请控制好火候。</AC_CookDragonianSteakFour.description>
+    <AC_CookDragonianSteakFour.jobString>正在烹饪龙娘肉排 x4。</AC_CookDragonianSteakFour.jobString>
+
+    <!-- 麻辣兔头配方 -->
+    <AC_CookSpicyRabbitHead.label>烹饪麻辣兔头</AC_CookSpicyRabbitHead.label>
+    <AC_CookSpicyRabbitHead.description>用悠兰族肉烹饪麻辣兔头，食谱是由超凡智能传授的。</AC_CookSpicyRabbitHead.description>
+    <AC_CookSpicyRabbitHead.jobString>正在烹饪麻辣兔头。</AC_CookSpicyRabbitHead.jobString>
+
+    <!-- 烤萌螈配方 -->
+    <AC_CookGrilledMoeLotl.label>烧烤萌螈肉</AC_CookGrilledMoeLotl.label>
+    <AC_CookGrilledMoeLotl.description>用萌螈肉制作烤串，外焦里嫩。在边缘世界，像这样鲜嫩的肉可不多见了。</AC_CookGrilledMoeLotl.description>
+    <AC_CookGrilledMoeLotl.jobString>正在烤萌螈肉。</AC_CookGrilledMoeLotl.jobString>
+	<!-- 烤萌螈x4配方 -->
+    <AC_CookGrilledMoeLotlFour.label>烧烤萌螈肉 x4</AC_CookGrilledMoeLotlFour.label>
+    <AC_CookGrilledMoeLotlFour.description>用萌螈肉制作烤串，外焦里嫩。在边缘世界，像这样鲜嫩的肉可不多见了。</AC_CookGrilledMoeLotlFour.description>
+    <AC_CookGrilledMoeLotlFour.jobString>正在烤萌螈肉 x4。</AC_CookGrilledMoeLotlFour.jobString>
+	
+	<!-- 米莉拉肉汤配方 -->
+    <AC_CookMiliraStew.label>烹饪米莉拉肉汤</AC_CookMiliraStew.label>
+    <AC_CookMiliraStew.description>用米莉拉肉熬制浓汤，虽然味道鲜美，但口感怪怪的。</AC_CookMiliraStew.description>
+    <AC_CookMiliraStew.jobString>正在烹饪米莉拉肉汤。</AC_CookMiliraStew.jobString>
+
+	<!-- 狐萝卜配方 -->
+    <AC_CookCarrox.label>合成狐萝卜 x2</AC_CookCarrox.label>
+    <AC_CookCarrox.description>用美狐族肉合成仿生素食，美狐族确实漂亮，但是她们的肉实在不是一般人能吃得惯的。</AC_CookCarrox.description>
+    <AC_CookCarrox.jobString>正在合成狐萝卜。</AC_CookCarrox.jobString>
+	<!-- 狐萝卜x8配方 -->
+    <AC_CookCarroxFour.label>合成狐萝卜 x8</AC_CookCarroxFour.label>
+    <AC_CookCarroxFour.description>用美狐族肉合成仿生素食，美狐族确实漂亮，但是她们的肉实在不是一般人能吃得惯的。</AC_CookCarroxFour.description>
+    <AC_CookCarroxFour.jobString>正在合成狐萝卜 x8。</AC_CookCarroxFour.jobString>
+
+	<!-- 芝士雪豹配方 -->
+    <AC_CookMaruCheese.label>制作芝士雪豹</AC_CookMaruCheese.label>
+    <AC_CookMaruCheese.description>用玛鲁的肉来制作芝士肉糕，只要粉碎彻底，吃起来还是挺有雪山风味的。</AC_CookMaruCheese.description>
+    <AC_CookMaruCheese.jobString>正在制作芝士雪豹。</AC_CookMaruCheese.jobString>
+
+	<!-- 绮罗方便面配方 -->
+    <AC_CookKiiroNoodles.label>制作绮罗方便面</AC_CookKiiroNoodles.label>
+    <AC_CookKiiroNoodles.description>用绮罗肉来加工制作类面制肉条，也许会有不清楚情况的人会觉得这是一碗小猫尾巴。</AC_CookKiiroNoodles.description>
+    <AC_CookKiiroNoodles.jobString>正在制作绮罗方便面。</AC_CookKiiroNoodles.jobString>
+	
+	<!-- 茉约琼浆配方 -->
+    <AC_CookMoyoSyrup.label>制作茉约琼浆</AC_CookMoyoSyrup.label>
+    <AC_CookMoyoSyrup.description>用茉约的肉榨取浆液，不愧是海蛞蝓，味道真是极品。</AC_CookMoyoSyrup.description>
+    <AC_CookMoyoSyrup.jobString>正在制作茉约琼浆。</AC_CookMoyoSyrup.jobString>
+	
+	<!-- 薇薇蜜饼配方 -->
+    <AC_CookViViCake.label>制作薇薇蜜饼</AC_CookViViCake.label>
+    <AC_CookViViCake.description>用薇薇的肉榨成渣，制作蜜饼。薇薇肉本身自带甜味，不需要深度加工就能够做出甜蜜的肉饼。</AC_CookViViCake.description>
+    <AC_CookViViCake.jobString>正在制作薇薇蜜饼。</AC_CookViViCake.jobString>
+	
+	<!-- 蚂蚁酱配方 -->
+    <AC_CookAntySauce.label>制作蚂蚁酱</AC_CookAntySauce.label>
+    <AC_CookAntySauce.description>用蚁族的肉榨成肉酱，就可以得到这一小瓶酱料，可以直接吃。</AC_CookAntySauce.description>
+    <AC_CookAntySauce.jobString>正在制作蚂蚁酱。</AC_CookAntySauce.jobString>
+	<!-- 蚂蚁酱x6配方 -->
+    <AC_CookAntySauceSix.label>制作蚂蚁酱 x6</AC_CookAntySauceSix.label>
+    <AC_CookAntySauceSix.description>用蚁族的肉榨成肉酱，就可以得到这一小瓶酱料，可以直接吃。</AC_CookAntySauceSix.description>
+    <AC_CookAntySauceSix.jobString>正在制作蚂蚁酱 x6。</AC_CookAntySauceSix.jobString>
+
+	<!-- 糖醋魅狐配方 -->
+    <AC_CookSweetAndSourKurin.label>烹饪糖醋魅狐</AC_CookSweetAndSourKurin.label>
+    <AC_CookSweetAndSourKurin.description>用魅狐肉烹饪糖醋魅狐，这种口味在东方较受欢迎。</AC_CookSweetAndSourKurin.description>
+    <AC_CookSweetAndSourKurin.jobString>正在烹饪糖醋魅狐。</AC_CookSweetAndSourKurin.jobString>
+	<!-- 糖醋魅狐x4配方 -->
+    <AC_CookSweetAndSourKurinFour.label>烹饪糖醋魅狐 x4</AC_CookSweetAndSourKurinFour.label>
+    <AC_CookSweetAndSourKurinFour.description>用魅狐肉烹饪糖醋魅狐，这种口味在东方较受欢迎。</AC_CookSweetAndSourKurinFour.description>
+    <AC_CookSweetAndSourKurinFour.jobString>正在烹饪糖醋魅狐 x4。</AC_CookSweetAndSourKurinFour.jobString>
+
+	<!-- 鹿茸烤肉 -->
+	<AC_CookMooseAntlerRoast.label>烹饪鹿茸烤肉</AC_CookMooseAntlerRoast.label>
+	<AC_CookMooseAntlerRoast.description>用鹿茸肉烹饪的美味佳肴，味道鲜美，营养丰富，深受食客喜爱。</AC_CookMooseAntlerRoast.description>
+	<AC_CookMooseAntlerRoast.jobString>正在烹饪鹿茸烤肉。</AC_CookMooseAntlerRoast.jobString>
+
+	<!-- 拉拉肥烤肉拌饭 -->
+	<AC_CookLalafellRoastRiceBowl.label>烹饪拉拉肥烤肉拌饭</AC_CookLalafellRoastRiceBowl.label>
+	<AC_CookLalafellRoastRiceBowl.description>将拉拉肥烤肉与米饭混合，香味四溢，口感独特，堪称一绝。</AC_CookLalafellRoastRiceBowl.description>
+	<AC_CookLalafellRoastRiceBowl.jobString>正在烹饪拉拉肥烤肉拌饭。</AC_CookLalafellRoastRiceBowl.jobString>
+
+	<!-- 冶龙肉丸配方 -->
+    <AC_CookYeLongRouWan.label>烹饪冶龙肉丸</AC_CookYeLongRouWan.label>
+    <AC_CookYeLongRouWan.description>将冶龙的肉制成弹嫩的肉丸，传说食用后能让人身轻如燕，感知敏锐。</AC_CookYeLongRouWan.description>
+    <AC_CookYeLongRouWan.jobString>正在烹饪冶龙肉丸。</AC_CookYeLongRouWan.jobString>
+
+	<!-- 知识面包配方 -->
+	<AC_CookKnowledgeBread.label>烹饪知识面包</AC_CookKnowledgeBread.label>
+    <AC_CookKnowledgeBread.description>用书姬兔的肉制成的神秘面包，据说这种面包最初是从口袋里长出来的。</AC_CookKnowledgeBread.description>
+    <AC_CookKnowledgeBread.jobString>正在烹饪知识面包。</AC_CookKnowledgeBread.jobString>
+	<!-- 知识面包x5配方 -->
+	<AC_CookKnowledgeBreadFive.label>烹饪知识面包 x5</AC_CookKnowledgeBreadFive.label>
+    <AC_CookKnowledgeBreadFive.description>用书姬兔的肉制成的神秘面包，据说这种面包最初是从口袋里长出来的。</AC_CookKnowledgeBreadFive.description>
+    <AC_CookKnowledgeBreadFive.jobString>正在烹饪知识面包 x5。</AC_CookKnowledgeBreadFive.jobString>
+
+	<!-- 龙虎斗 -->
+    <AC_CookLongHuDou.label>烹饪龙虎斗</AC_CookLongHuDou.label>
+    <AC_CookLongHuDou.description>这道菜描绘了5509年素象龙娘与绮罗猫在争夺地盘的故事。</AC_CookLongHuDou.description>
+    <AC_CookLongHuDou.jobString>正在烹饪龙虎斗。</AC_CookLongHuDou.jobString>
+
+	<!-- 龙凤呈祥 -->
+    <AC_CookLongFeng.label>烹饪龙凤呈祥</AC_CookLongFeng.label>
+    <AC_CookLongFeng.description>祥瑞寓意，传统点缀。</AC_CookLongFeng.description>
+    <AC_CookLongFeng.jobString>正在烹饪龙凤呈祥。</AC_CookLongFeng.jobString>
+
+	<!-- 白切鸡 -->
+    <AC_CookWhiteCutChick.label>烹饪白切鸡</AC_CookWhiteCutChick.label>
+    <AC_CookWhiteCutChick.description>白斩鸡的做法出自北馔，是伴随唐代“索唤（快餐）”而诞生的“旋鮓”肴馔，它是宋代士庶南迁，给南烹带来食文化交流和融合的产物。</AC_CookWhiteCutChick.description>
+    <AC_CookWhiteCutChick.jobString>正在烹饪白切鸡。</AC_CookWhiteCutChick.jobString>
+	
+</LanguageData>

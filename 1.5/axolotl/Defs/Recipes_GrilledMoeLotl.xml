@@ -1,0 +1,87 @@
+<Defs>
+    <!-- 烤萌螈配方 -->
+    <RecipeDef MayRequire="hentailoliteam.axolotl">
+        <defName>AC_CookGrilledMoeLotl</defName>
+        <label>Cook Grilled MoeLotl</label>
+        <description>Grill a skewer of MoeLotl meat, tender and flavorful.</description>
+        <jobString>Cooking Grilled MoeLotl.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+		<interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <fixedIngredientFilter Inherit="false" />
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_Axolotl</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Axolotl</li>
+                    </thingDefs>
+                </filter>
+                <count>15</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_GrilledMoeLotl>1</AC_GrilledMoeLotl>
+        </products>
+        <skillRequirements>
+            <Cooking>1</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+	
+	<!-- 烤萌螈x4配方 -->
+    <RecipeDef MayRequire="hentailoliteam.axolotl">
+        <defName>AC_CookGrilledMoeLotlFour</defName>
+        <label>Cook Grilled MoeLotl x4</label>
+        <description>Grill a skewer of MoeLotl meat, tender and flavorful.</description>
+        <jobString>Cooking Grilled MoeLotl x4.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+		<interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <fixedIngredientFilter Inherit="false" />
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">RGK_FueledStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_ElectricStove</li>
+            <li MayRequire="Solaris.FurnitureBase">GL_Bonfire</li>
+        </recipeUsers>
+        <workSkill>Cooking</workSkill>
+        <defaultIngredientFilter>
+            <thingDefs Inherit="false">
+                <li>Meat_Axolotl</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Meat_Axolotl</li>
+                    </thingDefs>
+                </filter>
+                <count>60</count>
+            </li>
+        </ingredients>
+        <products>
+            <AC_GrilledMoeLotl>4</AC_GrilledMoeLotl>
+        </products>
+        <skillRequirements>
+            <Cooking>1</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+</Defs>

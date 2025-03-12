@@ -1,0 +1,31 @@
+<Defs>
+	<!-- 知识面包效果 -->
+	<HediffDef MayRequire="secretarynexus.secretarynexusracemod">
+		<defName>AC_KnowledgeBreadBuff</defName>
+		<label>知识面包效果</label>
+		<description>食用后，大脑仿佛被知识充盈。</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(100, 200, 255)</defaultLabelColor> <!-- 浅蓝色效果标签 -->
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<!-- 效果持续时间为1天 -->
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.5</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeditationFocusGain>2.0</MeditationFocusGain> <!-- 冥想专注增益 -->
+				</statOffsets>
+				<statFactors>
+					<GlobalLearningFactor>2.0</GlobalLearningFactor> <!-- 全局学习效率提升 -->
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

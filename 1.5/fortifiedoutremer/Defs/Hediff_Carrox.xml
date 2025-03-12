@@ -1,0 +1,29 @@
+<Defs>
+	<!-- 狐萝卜效果 -->
+    <HediffDef MayRequire="miho.fortifiedoutremer">
+        <defName>AC_CarroxBuff</defName>
+        <label>狐萝卜效果</label>
+        <description>食用狐萝卜后，熵上限增加，冥想效率提升。</description>
+        <tendable>false</tendable>
+        <isBad>false</isBad>
+        <defaultLabelColor>(255,255,50)</defaultLabelColor>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>1.0</initialSeverity>
+        <maxSeverity>1.0</maxSeverity>
+        <comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.3</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+        </comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeditationFocusStrength>2.00</MeditationFocusStrength>
+					<PsychicEntropyMax>500</PsychicEntropyMax>
+				</statOffsets>
+			</li>
+		</stages>
+    </HediffDef>
+	
+</Defs>
